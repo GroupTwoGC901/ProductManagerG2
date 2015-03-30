@@ -25,7 +25,7 @@ public class UserManager {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             String dbUser = "sa";
             String dbPassword = "123456";
-            String url = "jdbc:sqlserver://DELL-PC\\SQLEXPRESS:1433;databaseName=ProductManager";
+            String url = "jdbc:sqlserver://SONNGUYEN\\SQLEXPRESS:1433;databaseName=ProductManager";
             Connection conn = DriverManager.getConnection(url, dbUser, dbPassword);
             PreparedStatement ps = conn.prepareStatement("Select * from [User] where username = ? and password = ?");
             ps.setString(1, user);

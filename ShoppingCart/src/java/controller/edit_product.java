@@ -13,15 +13,15 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import model.UserManager;
-import model.ProductManager;
 import model.Product;
+import model.ProductManager;
+import model.UserManager;
 
 /**
  *
- * @author DELL
+ * @author SonNguyen
  */
-public class login extends HttpServlet {
+public class edit_product extends HttpServlet {
 
     private List<Product> proList = new ArrayList<>();
 
@@ -36,19 +36,15 @@ public class login extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        String username = request.getParameter("username");
-        String password = request.getParameter("password");
-
+        int id = Integer.parseInt(request.getParameter("pro_id"));
+        String name = request.getParameter("pro_name");
+        Float price = Float.parseFloat(request.getParameter("pro_price"));
+        ProductManager pm = new ProductManager();
+        pm.editProduct(id, name, price);
         UserManager um = new UserManager();
-        if (um.checkUser(username, password)) {
-            ProductManager pm = new ProductManager();
-            proList = pm.ListAll();
-            request.setAttribute("proList", proList);
-            request.setAttribute("username", username);
-            request.getRequestDispatcher("welcome.jsp").forward(request, response);
-        } else {
-            request.getRequestDispatcher("login.jsp").forward(request, response);
-        }
+        proList = pm.ListAll();
+        request.setAttribute("proList", proList);
+        request.getRequestDispatcher("welcome.jsp").forward(request, response);
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

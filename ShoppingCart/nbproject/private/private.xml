@@ -3,10 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Dai%20hoc/Sem%204/SERVJSP/LAB/ShoppingCart/src/java/controller/login.java</file>
-            <file>file:/D:/Dai%20hoc/Sem%204/SERVJSP/LAB/ShoppingCart/web/login.jsp</file>
-            <file>file:/D:/Dai%20hoc/Sem%204/SERVJSP/LAB/ShoppingCart/web/welcome.jsp</file>
-            <file>file:/D:/Dai%20hoc/Sem%204/SERVJSP/LAB/ShoppingCart/src/java/model/UserManager.java</file>
+            <file>file:/D:/NetBeansProjects/ShoppingCart/ShoppingCart/web/welcome.jsp</file>
+            <file>file:/D:/NetBeansProjects/ShoppingCart/ShoppingCart/src/java/controller/edit_product.java</file>
+            <file>file:/D:/NetBeansProjects/ShoppingCart/ShoppingCart/web/edit_product.jsp</file>
         </group>
     </open-files>
 </project-private>

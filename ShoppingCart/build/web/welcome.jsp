@@ -30,6 +30,12 @@
                     <td>${pro.id}</td>
                     <td>${pro.name}</td>
                     <td>${pro.price}</td>
+                    <td>
+                        <form name="edit" action="edit_product.jsp" method="post">
+                            <input type="submit" value="Edit"/>
+                            <input type="hidden" name="pro_id" value="${pro.id}"/>
+                        </form>
+                    </td>
                 </tr>
             </c:forEach>
         </table>
