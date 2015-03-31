@@ -3,9 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/NetBeansProjects/ShoppingCart/ShoppingCart/web/welcome.jsp</file>
-            <file>file:/D:/NetBeansProjects/ShoppingCart/ShoppingCart/src/java/controller/edit_product.java</file>
-            <file>file:/D:/NetBeansProjects/ShoppingCart/ShoppingCart/web/edit_product.jsp</file>
+            <file>file:/C:/Users/Son/Documents/ProductManagerG2/ShoppingCart/src/java/model/UserManager.java</file>
+            <file>file:/C:/Users/Son/Documents/ProductManagerG2/ShoppingCart/src/java/model/AddProduct.java</file>
+            <file>file:/C:/Users/Son/Documents/ProductManagerG2/ShoppingCart/src/java/model/Product.java</file>
+            <file>file:/C:/Users/Son/Documents/ProductManagerG2/ShoppingCart/src/java/model/ProductManager.java</file>
         </group>
     </open-files>
 </project-private>
